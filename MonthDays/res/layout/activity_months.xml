@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/month_row_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/button_months_container_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/jan_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/jan" />
+
+        <Button
+            android:id="@+id/feb_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/feb" />
+
+        <Button
+            android:id="@+id/mar_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_months_container_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/apr_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/apr" />
+
+        <Button
+            android:id="@+id/may_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/may" />
+
+        <Button
+            android:id="@+id/jun_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/jun" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_months_container_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/jul_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/jul" />
+
+        <Button
+            android:id="@+id/aug_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/aug" />
+
+        <Button
+            android:id="@+id/sep_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sep" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_months_container_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/oct_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/oct" />
+
+        <Button
+            android:id="@+id/nov_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nov" />
+
+        <Button
+            android:id="@+id/dic_button"
+            style="@style/resizable_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dic" />
+    </LinearLayout>
+
+</LinearLayout>

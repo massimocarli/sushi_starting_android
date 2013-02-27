@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="SplashTextViewStyle" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/splash_title_text_size</item>
+        <item name="android:textColor">@color/splash_text_color</item>
+        <item name="android:background">@color/splash_text_bg_color</item>
+    </style>
+    
+    <style name="SplashTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen" >
+        <item name="android:textViewStyle">@style/SplashTextViewStyle</item>
+    </style>
+    
+</resources>

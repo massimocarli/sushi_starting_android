@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="jan">January</string>
+    <string name="feb">February</string>
+    <string name="mar">March</string>
+    <string name="apr">April</string>
+    <string name="may">May</string>
+    <string name="jun">June</string>
+    <string name="jul">July</string>
+    <string name="aug">August</string>
+    <string name="sep">September</string>
+    <string name="oct">October</string>
+    <string name="nov">November</string>
+    <string name="dic">Dicember</string>
+
+    <string-array name="months">
+        <item>@string/jan</item>
+        <item>@string/feb</item>
+        <item>@string/mar</item>
+        <item>@string/apr</item>
+        <item>@string/may</item>
+        <item>@string/jun</item>
+        <item>@string/jul</item>
+        <item>@string/aug</item>
+        <item>@string/sep</item>
+        <item>@string/oct</item>
+        <item>@string/nov</item>
+        <item>@string/dic</item>
+    </string-array>
+
+    <!--
+    integer-array name="month_length">
+        <item>31</item>
+        <item>28</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+    </integer-array
+    -->
+
+    <item name="short_month" type="integer">28</item>
+    <item name="medium_month" type="integer">30</item>
+    <item name="long_month" type="integer">31</item>
+
+    <integer-array name="month_length">
+        <item>@integer/long_month</item>
+        <item>@integer/short_month</item>
+        <item>@integer/long_month</item>
+        <item>@integer/medium_month</item>
+        <item>@integer/long_month</item>
+        <item>@integer/medium_month</item>
+        <item>@integer/long_month</item>
+        <item>@integer/long_month</item>
+        <item>@integer/medium_month</item>
+        <item>@integer/long_month</item>
+        <item>@integer/medium_month</item>
+        <item>@integer/long_month</item>
+    </integer-array>
+
+</resources>

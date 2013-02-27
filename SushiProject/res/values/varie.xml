@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_color">#DDDDDD</color>
+
+    <dimen name="test_width">100dp</dimen>
+
+    <string name="test_name">Forza Spal!</string>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>Dicember</item>
+    </string-array>
+    <integer-array name="month_length">
+        <item>31</item>
+        <item>28</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- It's in millisecond -->
+    <integer name="splash_timeout">3000</integer>
+
+</resources>

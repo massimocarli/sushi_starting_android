@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="resizable_text_style" parent="android:Widget.Holo.Light.Button">
+        <item name="android:textSize">@dimen/month_text_size</item>
+    </style>
+
+</resources>
